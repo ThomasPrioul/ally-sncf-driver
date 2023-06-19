@@ -1,7 +1,7 @@
 {
-  "name": "ally-custom-driver",
-  "version": "0.0.0",
-  "description": "A boilerplate for a custom ally driver",
+  "name": "ally-sncf-driver",
+  "version": "0.0.5",
+  "description": "SNCF FID ally driver",
   "main": "build/providers/index.js",
   "files": [
     "build/src",
@@ -45,12 +45,12 @@
   "adonisjs": {
     "instructionsMd": "./build/instructions.md",
     "env": {
-      "YOUR_DRIVER_CLIENT_ID": "",
-      "YOUR_DRIVER_CLIENT_SECRET": ""
+      "SNCF_CLIENT_ID": "",
+      "SNCF_CLIENT_SECRET": ""
     },
-    "types": "ally-custom-driver",
+    "types": "ally-sncf-driver",
     "providers": [
-      "ally-custom-driver"
+      "ally-sncf-driver"
     ]
   }
 }
